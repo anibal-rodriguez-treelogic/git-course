@@ -10,5 +10,14 @@ public class Exercise1 {
         assertEquals(4, 2+2);
     }
 
+    public void multiplica3numeros(int a, int b, int c){
+        return (a * b * c);
+    }
+
+    @Test
+    public void multiplica3numeros(){
+        assertEquals(120, multiplica3numeros(3, 4, 10));
+    }
+
 
 }
