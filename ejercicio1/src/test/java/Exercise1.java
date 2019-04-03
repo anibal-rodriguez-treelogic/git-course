@@ -10,5 +10,10 @@ public class Exercise1 {
         assertEquals(4, 2+2);
     }
 
+    @Test
+    public void convertirMayusculas(String cadena){
+	System.out.println(cadena.toUpperCase())
+    }
+
 
 }
